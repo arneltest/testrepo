@@ -6,6 +6,8 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	// message to user
+	printf("\n hello ");
 	return 0;
 }
 
