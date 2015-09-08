@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-
+#include <conio.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -11,6 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int x = 5, y = 3;
 	int sum = x + y;
 	printf("\n x + y =  %d", x,y,sum);
+	getch();
 	return 0;
 }
 
